@@ -1,0 +1,40 @@
+a)
+//Falta o símbolo “%” antes do “d”; Falta o símbolo “&” antes de “valor”
+scanf("%d, &valor):
+
+b)
+//O operador de quebra de linha (“\n”) está depois da conclusão das aspas; São indicadas três variáveis dentro da string (%d), mas apenas duas são passadas (x e y)
+printf("O produto de %d e %d é %d\n", x, y, z);
+
+c)
+//A alocação do valor primeiroNumero + segundoNumero na variável somaDosNumeros está ao contrário; Falta um ponto e vírgula ao fim da linha
+somaDosNumeros = primeiroNumero + segundoNumero;
+
+d)
+//O sinal da operação “maior ou igual” está invertido; O operador “igual a” está sendo utilizado para atribuição de valor
+if(numero => maior){
+    maior == numero;
+}
+
+e)
+//A função “scanf” deve ter um “s” minúsculo; Falta o sinal “&”
+scanf("%d", &umInteiro);
+
+f)
+//São passadas 3 variáveis (x, y e (x%y)), porém apenas 2 espaços reservados dentro da string
+printf(“Modulo de %d dividido por %d é %d\n”, x, y, x%y);
+
+g)
+//O sinal de atribuição (=) está sendo usado como operador de comparação “igual a” (==); Há um ponto e vírgula na primeira linha que impediria o resultado do if
+if (x==y){
+    printf("%d é igual a %d\n”, x, y");
+}
+
+h)
+//Falta a letra “f” na função “print”
+printf( “A soma é %d\n,” x + y );
+
+i)
+//Função “printf” deve ser escrita em minúsculo; Falta o fechamento de aspas; O valor indicado é o endereço de memória, ao invés do valor da variável
+printf("O valor que você digitou é: %d\n", valor);
+

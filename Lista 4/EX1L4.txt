@@ -1,0 +1,31 @@
+a) 
+int c;
+int estaVariavel;
+int q76354; 
+int numero;
+
+b)
+int num;
+printf("Digite um numero inteiro: ");
+scanf("%d", &num);
+
+c)
+int a;
+scanf("%d", &a);
+
+d)
+if (num != 7){
+    printf("A variavel número não é igual a 7);
+}
+
+e)
+printf("Este é um programa em C.");
+
+f)
+printf("Este é um programa em C\n.");
+
+g)
+printf("Este\n é\n um\n programa\n em\n C\n.");
+
+h)
+printf("Este\t é\t um\t programa\t em\t C\t.");
