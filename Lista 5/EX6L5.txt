@@ -1,0 +1,32 @@
+6.
+
+int eh_palindromo(int num) {
+    int original = num;
+    int invertido = 0;
+
+    while (num > 0) {
+        int digito = num % 10;
+        num = num / 10;
+        invertido = invertido * 10 + digito;
+    }
+
+    if (original == invertido) return 1;
+    else return 0;
+}
+
+int main() {
+    int n;
+
+    printf("Digite um numero: ");
+    scanf("%d", &n);
+
+    if (eh_palindromo(n)) {
+        printf("%d eh palindromo.\n", n);
+    } else {
+        printf("%d nao eh palindromo.\n", n);
+    }
+
+    system ("pause");
+    return 0;
+}
+

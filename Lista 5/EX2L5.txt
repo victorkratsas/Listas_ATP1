@@ -1,0 +1,9 @@
+2.
+
+float a = 1;
+float b = 5;
+float c = 12;
+
+float y (float x) {
+    return (a * x * x + b * x + c);
+}

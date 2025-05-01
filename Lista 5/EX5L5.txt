@@ -1,0 +1,39 @@
+5.
+
+int calcula_imc(float peso, float altura){
+    float imc = peso / pow(altura, 2);
+    if (imc < 18.5) return 0;
+    if (imc <= 24.9 ) return 1;
+    if (imc <= 29.9) return 2;
+    return 3;
+}
+
+void imprima_imc(int calcula_imc){
+    switch (calcula_imc)
+    {
+    case 0:
+        printf("Magreza\n");
+        break;
+    
+    case 1:
+        printf("Saudavel\n");
+        break;
+    case 2:
+        printf("Sobrepeso\n");
+        break;
+    case 3:
+        printf("Obesidade\n");
+        break;
+    }
+}
+
+int main(){
+    float p, a;
+    printf("Esse programa calcula o imc.\nDigite o peso (Kg) e a altura (m): ");
+    scanf("%f%f", &p, &a);
+    printf("O resultado do imc esta classificado como: ");
+    imprima_imc(calcula_imc(p, a));
+    system("pause");
+    return 0;
+
+}

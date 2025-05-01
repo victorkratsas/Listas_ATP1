@@ -1,0 +1,7 @@
+1.
+
+void imprime_ola(){
+    printf("Ola, mundo");
+}
+
+

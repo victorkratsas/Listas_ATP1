@@ -1,0 +1,17 @@
+7.
+
+void calcular_circulo (int raio, float *area, float *perimetro){
+    *area = M_PI * pow(raio, 2);
+    *perimetro = 2 * M_PI * raio;
+}
+
+int main(){
+    float area, perimetro, raio;
+    printf("Digite o raio do circulo: ");
+    scanf("%f", &raio);
+    calcular_circulo(raio, &area, &perimetro);
+    printf("area: %f\nperimetro: %f\n", area, perimetro);
+    system ("pause");
+    return 0;
+}
+
