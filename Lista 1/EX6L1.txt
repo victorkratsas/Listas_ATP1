@@ -1,0 +1,1 @@
+algoritmo “Aprovado” var nota1, nota2, nota3, media: realinicioLEIA (nota1)LEIA (nota2)LEIA (nota3)Media <- (nota1+nota2+nota3) /3SE media >= 5 ENTÃO    ESCREVA (Passou)SENÃO     ESCREVA (Reprovou)FIMSEfimalgoritmo
