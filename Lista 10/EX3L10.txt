@@ -1,0 +1,47 @@
+a) A não inicialização do ponteiro.
+   Correção:
+   int aux = 32;
+   int *number = &aux;
+   printf("%d\n", *number);
+
+
+b) float é um tipo que suporta números com casas decimais, enquanto long não.
+   Correção:
+   float *realPtr;
+   long *integerPtr;
+   realPtr = integerPtr;
+
+
+c) y não é um ponteiro, então x = y não atribui a x o endereço de y.
+   Correção:
+   int *x, *y;    ou   int *x, y;
+   x = y;              x = &y;
+
+
+d) O vetor não tem valor especificado, a iteração não funciona.
+   Correção:
+   int count = 0;
+   char s[22] = "um array de caracteres";
+   for(; *(s+count) != '\0'; count++;)
+   printf("%c", *(s+count));
+
+
+e) genericPtr é um ponteiro de tipo genério, então precisa ser parseado para realizar a operação.
+   Correção:
+   short *numPtr, result;
+   void *genericPtr = numPtr;
+   result = *((short*)genericPtr) + 7;
+
+
+f) O ponteiro não está referenciando e derreferenciando.
+   Correção:
+   float x = 19.34;
+   float *xPtr = &x;
+   printf("%f\n", *xPtr);
+
+
+g) O ponteiro não foi inicializado.
+   Correção:
+   char aux = 'L';
+   char *s = &aux;
+   printf("%c\n", *s);

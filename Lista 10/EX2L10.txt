@@ -1,0 +1,29 @@
+a) C armazena listas de valores em ARRAYS.
+
+
+b) Os elementos de um array têm em comum o fato de que eles SÃO DO MESMO TIPO.
+
+
+c) Ao se referir a um elemento do array, o número da posição contido dentro dos parênteses é um(a)
+ÍNDICE.
+
+
+d) Os nomes dos cinco elementos do array p são p[0], p[1], p[2], p[3] e p[4].
+
+
+e) O conteúdo de um elemento em particular de um array é chamado VALOR desse elemento.
+
+
+f) Dar nome a um array, indicar seu tipo e especificar o número de elementos contidos nele é chamado
+DECLARAR o array.
+
+
+g) Em um array de subscrito duplo (matriz), o primeiro subscrito (por convenção) identifica a LINHA de
+um elemento, e o segundo subscrito (por convenção) identifica a COLUNA de um elemento.
+
+
+h) Um array *m*-por-*n* contém M linhas, N colunas e M*N elementos.
+
+
+i) O nome do elemento do array d na linha 3, coluna 5 é D[2][4].
+
